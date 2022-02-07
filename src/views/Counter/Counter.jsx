@@ -1,13 +1,17 @@
 import React from 'react';
 import { useStore } from "../../store";
+import useLocalStorage from "../../hooks/useLocalStorage";
+
 
 const Counter = props => {
 	
   const [counter, setCounter] = useStore.counter();
-	
+  const [savedCount, setSavedCount] = useLocalStorage("savedCount", 0);
+  
   const add = (e) => { e.preventDefault(); setCounter(counter + 1)};
   const substract = (e) => { e.preventDefault(); setCounter(counter - 1)};
-  
+  const saveLocal = (e) => { e.preventDefault(); setSavedCount(counter)};
+	
   return (
 	<section className="text-gray-600 body-font overflow-hidden">
 	  <div className="container px-5 mx-auto">
@@ -23,6 +27,7 @@ const Counter = props => {
 				  <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-r" onClick={add}>
 					+
 				  </button>
+				  <button class="py-2 px-6 text-white  rounded shadow font-bold bg-indigo-700 hover:bg-indigo-900 ml-5" onClick={saveLocal}>Save</button>
 				</div>
 			</p>
 			<h2 class="text-lg text-gray-900 font-medium title-font mb-4">{counter}</h2>
