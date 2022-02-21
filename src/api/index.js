@@ -10,11 +10,6 @@ class API {
 				return data;
 			})
 			.catch(err => console.log(error));
-			//.catch(() => "Nada");
-		
-		/*return response;*/
-		//data.forEach(event => (event.id = event.organizer + event.title));
-		//return {datetime: 555};
 	}
 }
 
