@@ -1,8 +1,8 @@
-const apiURL = "http://worldtimeapi.org/api/timezone/America/Halifax"
+const apiURL = "http://worldtimeapi.org/api/timezone/"
 
 class API {
-	getTime() {
-		const query = `${apiURL}`;
+	getTime(timezone) {
+		const query = `${apiURL}${timezone}`;
 		return fetch(query)
 			.then((response) => response.json())
 			.then((data) => {
