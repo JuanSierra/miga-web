@@ -18,7 +18,7 @@ Template to quickly setup a base-code with React and a set of common functionali
 
 ## Demo
 
-[Basic Template](https://juansierra.github.io/miga-web)
+[Basic Template](https://wondrous-starship-d64a29.netlify.app/)
 
 
 ## Installation
