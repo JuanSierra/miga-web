@@ -6,8 +6,7 @@
 *.log
 /.vscode/
 /packages/vite/LICENSE
-# Uncomment dist if not interested in using gh pages
-# dist
+dist
 dist-ssr
 explorations
 node_modules
