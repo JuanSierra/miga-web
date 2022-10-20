@@ -41,6 +41,8 @@ Build production version -> /dist
   npm run build
 ```
 
+Check site in http://localhost:3000
+
 ## Tech Stack
 
 React, Teaful, TailwindCSS, Vite
