@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../assets/migas.png';
+import logo from 'https://juansierra.github.io/miga-web/dist/assets/migas.png';
 
 const NavBar = () => {
   return (
