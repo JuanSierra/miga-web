@@ -1,55 +1,46 @@
-# Nano React App Default Javascript Template
+# Miga Web
 
-The default template project for [nano-react-app](https://github.com/nano-react-app/nano-react-app).
+[![Apache-2.0 License](https://img.shields.io/badge/License-Apache-2.svg)](https://choosealicense.com/licenses/apache-2.0/)
 
-- `npm start` — This will spawn a development server with a default port of `3000`.
-- `npm run build` — This will output a production build in the `dist` directory.
+Template to quickly setup a base-code with React and a set of common functionalities
 
-## Custom port
+![Template Screenshot](migaweb-screenshot.gif)
 
-You can use the `-p` flag to specify a port for development. To do this, you can either run `npm start` with an additional flag:
+## Features
 
-```
-npm start -- --port 1234
-```
+- Ready to use
+- API Request result (fetch)
+- State management (Teaful)
+- Local storage (Hooks)
+- SPA Routing (React Router)
+- Load environment variables (Vite env)
+- Load configuration variables (JSON)
 
-Or edit the `start` script directly:
+## Demo
 
-```
-vite --port 1234
-```
-
-## Adding styles
-
-You can use CSS files with simple ES2015 `import` statements anywhere in your Javascript:
-
-```js
-import "./index.css";
-```
-
-## Babel transforms
-
-The Babel preset [babel-preset-nano-react-app](https://github.com/nano-react-app/babel-preset-nano-react-app) is used to support the same transforms that Create React App supports.
-
-The Babel configuration lives inside `package.json` and will override an external `.babelrc` file, so if you want to use `.babelrc` remember to delete the `babel` property inside `package.json`.
+[Basic Template](https://juansierra.github.io/miga-web)
 
 
-## Deploy to GitHub Pages
+## Installation
 
-You can also deploy your project using GitHub pages.
-First install the `gh-pages` [package](https://github.com/tschaub/gh-pages):
+Using gh CLI
 
-`npm i -D gh-pages`
-
-Use the following scripts for deployment:
-
-```
-"scripts": {
-  "start": "vite",
-  "build": "vite build",
-  "predeploy": "rm -rf dist && vite build",
-  "deploy": "gh-pages -d dist"
-},
+```bash
+  gh repo create --template JuanSierra/miga-web
 ```
 
-Then follow the normal procedure in GitHub Pages and select the `gh-pages` branch.
+## Usage
+
+Start local
+```bash
+  npm start
+```
+
+Build production version -> /dist
+```bash
+  npm run build
+```
+
+## Tech Stack
+
+React, Teaful, TailwindCSS, Vite
