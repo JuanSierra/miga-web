@@ -1,6 +1,7 @@
 # Miga Web
 
 [![Apache-2.0 License](https://img.shields.io/badge/License-Apache-2.svg)](https://choosealicense.com/licenses/apache-2.0/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7716b167-3afc-4f31-ac73-3e4f081a17f8/deploy-status)](https://app.netlify.com/sites/wondrous-starship-d64a29/deploys)
 
 Template to quickly setup a base-code with React and a set of common functionalities
 

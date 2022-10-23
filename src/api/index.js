@@ -1,4 +1,4 @@
-const apiURL = "http://worldtimeapi.org/api/timezone/"
+const apiURL = "https://worldtimeapi.org/api/timezone/"
 
 class API {
 	getTime(timezone) {
