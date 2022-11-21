@@ -9,13 +9,13 @@ Template to quickly setup a base-code with React and a set of common functionali
 
 ## Features
 
-⚡ Ready to use: [use this repository as template](https://github.com/JuanSierra/miga-web/generate) or using gh CLI
-📦 State management: easy and powerful React state management with [Teaful](https://github.com/teafuljs/teaful#usestore-hook)
-📍 SPA Routing: navigation setup ready to work with components-views structure 
-💾 Local storage: custom hook to store data in browser [see](https://github.com/JuanSierra/miga-web/blob/master/src/hooks/useLocalStorage.js)
-🔒 Load secrets: use Vite environment variables to load API keys or other secrets
-🌐 API Request: vanilla fetch example to handle API request
-📄 Configuration variables: load configuration data from JSON
+⚡ Ready to use: [use this repository as template](https://github.com/JuanSierra/miga-web/generate) or using gh CLI  
+📦 State management: easy and powerful React state management with [Teaful](https://github.com/teafuljs/teaful#usestore-hook)  
+📍 SPA Routing: navigation setup ready to work with components-views structure  
+💾 Local storage: custom hook to store data in browser [see](https://github.com/JuanSierra/miga-web/blob/master/src/hooks/useLocalStorage.js)  
+🔒 Load secrets: use Vite environment variables to load API keys or other secrets  
+🌐 API Request: vanilla fetch example to handle API request  
+📄 Configuration variables: load configuration data from JSON  
 
 ## Demo
 
